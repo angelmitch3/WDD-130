@@ -3,6 +3,16 @@
     height: 725px;
 } 
 
+#hero-msg h1 {
+
+    text-align: center;
+} 
+
+#hero-msg h4 {
+
+    text-align: center;
+}
+
 body {
     background-color: #fcfbfb; 
 }
@@ -36,5 +46,9 @@ footer p a:hover {
     text-decoration: underline;
 }    
     
+#content {
 
+max-width: 1600px;
+
+}
              
