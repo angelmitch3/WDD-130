@@ -1,54 +1,125 @@
-
-#background {
-    height: 725px;
-} 
-
-#hero-msg h1 {
-
-    text-align: center;
-} 
-
-#hero-msg h4 {
-
-    text-align: center;
-}
-
 body {
-    background-color: #fcfbfb; 
+    background-color: #BDFAF1; 
 }
-header {
-    background-color:rgba(20,30,13, .7);
-}
-nav a:hover {
-    background-color: black;
-}
-      
-nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
-}    
-     
-.icon {
-    width: 80px;
-}
-          
-nav a {
+
+.book {
     text-align: center;
-    color: #fcfbfb;
+    color: #BDFAF1;
+    background-color: #004643;
     text-decoration: none;
 }
 
+.book:hover {
+    background-color: black;
+}
+
+.button-box { 
+    text-align: center;
+}
+
+footer {
+    background-color: #004643;
+    color: #BDFAF1;
+    max-width: 1600px;
+}
+
+footer a {
+    text-align: center;
+    color:#BDFAF1;
+    background-color: #004643;
+    text-decoration: none;
+}
+
+footer a:hover  {
+    color: #BDFAF1;
+}
+
 footer p {
-    font-size: 1.2em;
+    font-size: 1.2em;  
 }    
- 
+
 footer p a:hover {
     text-decoration: underline;
-}    
-    
-#content {
+} 
 
-max-width: 1600px;
-
+header {
+    background-color:#004643;
+    max-width: 1600px;
 }
-             
+
+h4 {  
+    color:#004643;
+} 
+
+#background {
+    background-color:#BDFAF1;
+    height: 725px;
+} 
+
+#content {
+    text-align: center;
+    max-width: 1600px;
+}
+
+.home-title {  
+    color: black;
+}
+
+.icon {
+    width: 65px;
+}
+
+.join {
+    text-align: center;
+    color: #fcfbfb;
+    background-color:black ;
+}
+
+.join:hover {
+    
+   color:#BDFAF1 ;
+}
+
+#logo_link {
+   text-align:left ;
+}
+
+main {
+   text-align:center ;
+}
+
+.msg {
+   background-color:#004643 ;
+   color : var(--paragraph-background-color);
+}
+
+.msg h2 {   
+   color:#BDFAF1 ;
+}
+
+.msg p {   
+   color:#BDFAF1 ;
+}
+
+nav a {
+   text-align:center ;
+   color:#fcfbfb ;
+   text-decoration:none ;
+}
+  
+nav a:hover {
+   background-color:black ;
+   color:#d9c2a3 ;
+} 
+
+#hero-img {
+   max-width : 1600px ;
+}
+  
+#hero-msg h1 {   
+   text-align:center ;
+} 
+
+#hero-msg h4 {   
+   text-align:center ;
+}
