@@ -107,6 +107,7 @@ main {
  .msg a:hover {
     background-color:#BDFAF1;
     color : #004643;
+    text-decoration: none;
     
  }
 
