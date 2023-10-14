@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Roboto:wght@300&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #004643  ;
+    --secondary-color: #63CCCA;
+    --accent1-color: #BDFAF1;
+    --accent2-color: #E7FFFB;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Caveat";
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #004643;  /* headlines on a white background */ 
+    --headline-color-on-color: #BDFAF1; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #004643; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #BDFAF1; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #004643  ;
+    --nav-link-color: #004643;
+    --nav-background-color: #63CCCA;
+    --nav-hover-link-color: #BDFAF1;
+    --nav-hover-background-color: #004643;
+  }
+
 body {
     background-color: #BDFAF1; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: var(--paragrapgh-font);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
 }
 
 .book {
@@ -7,6 +42,10 @@ body {
     color: #004643;
     background-color: rgb(208, 208, 208);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -22,6 +61,9 @@ footer {
     background-color: #004643;
     color: #BDFAF1;
     max-width: 1600px;
+    margin-top: 200px;
+    padding: 50px 20px;
+
 }
 
 footer a {
@@ -29,6 +71,7 @@ footer a {
     color:#BDFAF1;
     background-color: #004643;
     text-decoration: none;
+    font-family: var(--paragrapgh-font);
 }
 
 footer a:hover  {
@@ -37,6 +80,7 @@ footer a:hover  {
 
 footer p {
     font-size: 1.2em;  
+    font-family: Roboto, Helvetica, sans-serif;
 }    
 
 footer p a:hover {
@@ -55,6 +99,8 @@ h4 {
 #background {
     background-color:#004643;
     height: 725px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 } 
 
 #content {
@@ -64,16 +110,22 @@ h4 {
 
 .home-title {  
     color: #004643;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .join {
     text-align: center;
     color: #fcfbfb;
-    background-color:black ;
+    background-color:black;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -87,6 +139,7 @@ width: 80px;
 
 #logo_link {
    text-align:left ;
+   padding-top: 5px;
 }
 
 main {
@@ -96,6 +149,8 @@ main {
 .msg {
    background-color:#004643;
    color: #BDFAF1;
+   line-height: 1.5em;
+   padding: 35px;
 }
 
 .msg a {
@@ -113,17 +168,23 @@ main {
 
 .msg h2 {   
    color:#BDFAF1;
+   
+
 }
 
 .msg p {   
-   
+   font-family: var(--paragraph-font);
    color:#BDFAF1;
+   padding-bottom: 15px;
 }
 
 nav a {
+   font-family: var(--paragraph-font); 
    text-align:center;
    color:#BDFAF1;
    text-decoration:none;
+   padding: 35px;
+
 }
   
 nav a:hover {
@@ -142,4 +203,21 @@ nav a:hover {
 
 #hero-msg h4 {   
    text-align:center ;
+}
+
+.social img {
+    padding-top: 15px;
+    
+}
+
+.rivers-card, .camping-card, .rapids-card .mountains { 
+    margin: 200px 0;
+    
+} 
+
+.card-img {
+    border: 10px solid #004643;;
+}
+main section img {
+    box-sizing: border-box;
 }
