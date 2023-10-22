@@ -207,6 +207,14 @@
       left: 0;
      }   
 
+     .blue6 {
+      position: absolute;
+      width: 400px; 
+      height: 400px; 
+      background-color: blue; 
+      top: 100px;
+      left: 100px;
+     }
    
      .green6 { 
       position: absolute;
@@ -226,15 +234,6 @@
       left:400px;
      } 
     
-  
-     .blue6 {
-      position: absolute;
-      width: 400px; 
-      height: 400px; 
-      background-color: blue; 
-      top: 100px;
-      left: 100px;
-     }
 
 /* Do not make any changes below here */
      .activity {
