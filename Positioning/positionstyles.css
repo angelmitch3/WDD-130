@@ -8,6 +8,8 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     gap: 20px;
+    width: 600px;
+    height: 660px;
 
     }
     .red1 { 
