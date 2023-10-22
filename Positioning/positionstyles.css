@@ -59,8 +59,8 @@
     height: 100px; 
     background-color: green; 
      } 
-    .yellow2 {
-
+    
+     .yellow2 {
     position: absolute;
     top: 80px;
     left: 80px;  
@@ -176,7 +176,7 @@
     .yellow5 {
      align-content: space-evenly; 
      width: 70%; 
-     height: 260px; 
+     height: 250px; 
      background-color: gold; 
     
 
