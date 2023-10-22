@@ -170,10 +170,11 @@
         /* This is the parent of the activity 5 boxes. */
         position: relative;     
          height: 400px;
+         width: 675px;
     }
     .red5 { 
   
-    width: 70%; 
+    width: 100%; 
     height: 100px; 
     background-color: red; 
      } 
@@ -188,15 +189,15 @@
      } 
     .yellow5 {
      align-content: space-evenly; 
-     width: 70%; 
-     height: 260px; 
+     width: 100%; 
+     height: 275px; 
      background-color: gold; 
     
 
     } 
     .blue5 {
    
-    width: 70%;   
+    width: 100%;   
     height: 100px; 
     background-color: blue; 
      } 
