@@ -100,7 +100,8 @@
     }
 
     .yellow3 {
-      grid-column: 2 span 3; /* Positioned in the second column */
+      justify-items: end;
+      grid-column: 2 / 3; /* Positioned in the second column */
       width: 400px; /* Adjusted to take up the full column width */
       height: 200px; /* Same height as .green3 */
       background-color: gold;
@@ -187,31 +188,53 @@
     height: 100px; 
     background-color: blue; 
      } 
-     /* Activity 6 styles */ 
-     .content6 {
-        /* This is the parent of the activity 6 boxes. */
-    }
-    .red6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: red; 
-    } 
-    .green6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: green; 
-     } 
-    .yellow6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: gold; 
-    } 
-    .blue6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: blue; 
-    } 
 
+     /* Activity 6 styles */ 
+ .content6 {
+      /* This is the parent of the activity 6 boxes. */
+     position: relative;
+     width: 600px;
+     height: 600px;
+        
+     }
+    
+     .red6 {
+      position: absolute;
+      width: 400px; 
+      height: 200px; 
+      background-color: red; 
+      top: 0;
+      left: 0;
+     }   
+
+   
+     .green6 { 
+      position: absolute;
+      width: 200px; 
+      height: 200px; 
+      background-color: green; 
+      top: 400px;
+      left: 0;
+     } 
+    
+     .yellow6 {
+      position: absolute;
+      width: 200px; 
+      height: 400px; 
+      background-color: gold; 
+      top: 200px;
+      left:400px;
+     } 
+    
+  
+     .blue6 {
+      position: absolute;
+      width: 400px; 
+      height: 400px; 
+      background-color: blue; 
+      top: 100px;
+      left: 100px;
+     }
 
 /* Do not make any changes below here */
      .activity {
