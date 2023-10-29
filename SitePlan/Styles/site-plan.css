@@ -6,7 +6,7 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #004643  ;
+  --primary-color: #004643;
   --secondary-color: #63CCCA;
   --accent1-color: #BDFAF1;
   --accent2-color: #E7FFFB;
@@ -71,6 +71,7 @@ p {
   padding: 1em;
 }
 .colors {
+  font-family: var(--paragraph-font);
   width: 100%;
   min-width: 350px;
   margin: 30px auto;
@@ -83,7 +84,6 @@ p {
   width: 25%;
   height: 3em;
 }
-
 .primary {
   background-color: var(--primary-color);
 }
