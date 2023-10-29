@@ -263,14 +263,11 @@ main.home-grid {
 
 .msg {
     position: absolute;
-    background-color:white;
-    color: #BDFAF1;
     line-height: 1.5em;
     padding: 35px;
     box-shadow: 5px 5px 10px;
-    z-index:1;
     top: 1900px;
-    left: 700px;  
+    left: 800px;  
  }
  
  .msg a {
@@ -303,6 +300,8 @@ main.home-grid {
     align-content: center;
     align-items: center;
     width: 100%;
+    font-size: medium;
+    
  }
 
 
