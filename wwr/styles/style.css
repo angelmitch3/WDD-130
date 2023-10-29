@@ -87,8 +87,9 @@ h4 {
 #background {
     background-color:#004643;
     height: 725px;
-    margin-top: 50px;
+    margin-top: 700px;
     margin-bottom: 50px;
+  
 } 
 .background1 {
     background-color:#BDFAF1;
@@ -217,38 +218,35 @@ main.home-grid {
  .rivers-card {
   width: 100px; 
   height: 100px;    
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
   align-items: center;
   position: absolute;
   top: 100px;
-  left:100px; 
+  left:200px; 
+  display: flex;
+  flex-direction: column;
 }
 
  .camping-card {
     width: 100px; 
     height: 100px;    
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
     align-items: center;
     position: absolute;
     top: 100px;
-    left: 600px; 
+    left: 700px; 
+    display: flex;
+    flex-direction: column;
 
 }
 
 .rapids-card {
     width: 100px; 
     height: 100px;    
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
     align-items: center;
     position: absolute;
     top: 100px;
-    left: 1100px; 
+    left: 1200px; 
+    display: flex;
+    flex-direction: column;
 
 } 
 
@@ -258,14 +256,16 @@ main.home-grid {
     line-height: 1.5em;
     padding: 35px;
     box-shadow: 5px 5px 10px #004643;
-    width: 100%;
+    z-index:1;
  }
  
  .msg a {
      background-color:rgb(208, 208, 208);
      color : #004643;
      text-decoration: none;
-     width: 100%;
+     align-content: center;
+     align-items: center;
+     
   }
  
   .msg a:hover {
@@ -285,6 +285,9 @@ main.home-grid {
     font-family: Roboto, Helvetica, sans-serif;
     color:#BDFAF1;
     padding-bottom: 15px;
+    align-content: center;
+    align-items: center;
+    width: 100%;
  }
 
 .mountains {
