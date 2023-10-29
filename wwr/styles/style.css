@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 .book:hover {
     background-color: #004643;
     color:#BDFAF1;
+    box-shadow: 5px 5px 5px whitesmoke;
 }
 
 .button-box { 
@@ -274,6 +275,7 @@ main.home-grid {
      background-color:#BDFAF1;
      color : #004643;
      text-decoration: none;
+     box-shadow: 5px 5px 10px whitesmoke;
      
   }
  
@@ -303,6 +305,7 @@ main.home-grid {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+    
 }
 
 
