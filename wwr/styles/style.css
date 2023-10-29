@@ -40,12 +40,14 @@ footer {
     background-color: #004643;
     color: #BDFAF1;
     max-width: 1600px;
-    margin-top: 200px;
-    padding: 50px 20px;
+    padding: 25px 50px;
+    margin-top: 200px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+ 
+
+
 
 }
 
@@ -55,6 +57,7 @@ footer a {
     background-color: #004643;
     text-decoration: none;
     font-family: Roboto, Helvetica, sans-serif;
+    width: 100%;
 }
 
 footer a:hover  {
@@ -87,11 +90,13 @@ h4 {
     margin-top: 50px;
     margin-bottom: 50px;
 } 
-#background1 {
+.background1 {
     background-color:#BDFAF1;
     height: 100px;
     margin-top: 50px;
     margin-bottom: 50px;
+    bottom: 2000px;
+    left: 0; 
 } 
 
 #content {
@@ -141,40 +146,6 @@ main {
    text-align:center ;
 }
 
-.msg {
-   background-color:#004643;
-   color: #BDFAF1;
-   line-height: 1.5em;
-   padding: 35px;
-   grid-column: 6/10;
-   grid-row: 6/7;
-   box-shadow: 5px 5px 10px #004643;
-}
-
-.msg a {
-    background-color:rgb(208, 208, 208);
-    color : #004643;
-    text-decoration: none;
- }
-
- .msg a:hover {
-    background-color:#BDFAF1;
-    color : #004643;
-    text-decoration: none;
-    
- }
-
-.msg h2 {   
-   color:#BDFAF1;
-   
-
-}
-
-.msg p {   
-   font-family: Roboto, Helvetica, sans-serif;
-   color:#BDFAF1;
-   padding-bottom: 15px;
-}
 
 nav {
     display: flex;
@@ -236,10 +207,10 @@ nav a:hover {
     
 }
 
-.home-grid {
+main.home-grid {
     position: relative;
     width: 1600px;
-    height: 3700px;
+    height: 100%;
 
 }
 
@@ -279,9 +250,42 @@ nav a:hover {
     top: 100px;
     left: 1100px; 
 
-}
+} 
 
-
+.msg {
+    background-color:#004643;
+    color: #BDFAF1;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #004643;
+    width: 100%;
+ }
+ 
+ .msg a {
+     background-color:rgb(208, 208, 208);
+     color : #004643;
+     text-decoration: none;
+     width: 100%;
+  }
+ 
+  .msg a:hover {
+     background-color:#BDFAF1;
+     color : #004643;
+     text-decoration: none;
+     
+  }
+ 
+ .msg h2 {   
+    color:#BDFAF1;
+    
+ 
+ }
+ 
+ .msg p {   
+    font-family: Roboto, Helvetica, sans-serif;
+    color:#BDFAF1;
+    padding-bottom: 15px;
+ }
 
 .mountains {
 
@@ -289,10 +293,7 @@ nav a:hover {
     box-shadow: 5px 5px 10px #004643;
 }
 
-.msg {
-    grid-column: 6 / 10;
-    grid-row: 6 / 7;
-}
+
 
 .card-img {
     border: 10px solid #004643;
@@ -313,8 +314,5 @@ main section img {
 .msg {
     background-color: #004643;
     padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
     box-shadow: 5px 5px 10px #004643;
 }
-
