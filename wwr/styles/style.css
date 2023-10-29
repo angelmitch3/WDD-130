@@ -45,10 +45,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
- 
-
-
-
 }
 
 footer a {
@@ -102,13 +98,8 @@ h4 {
 }
 
 
-.background1 {
+#background1 {
     background-color:#BDFAF1;
-    height: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    bottom: 2000px;
-    left: 0; 
 } 
 
 #content {
@@ -265,9 +256,9 @@ main.home-grid {
     position: absolute;
     line-height: 1.5em;
     padding: 35px;
-    box-shadow: 5px 5px 10px;
     top: 1900px;
     left: 800px;  
+    background-color: #BDFAF1;
  }
  
  .msg a {
