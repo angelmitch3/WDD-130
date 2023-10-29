@@ -104,13 +104,12 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-  display: flex;
+  display: flex end;
   justify-content: space-around;
-}
-nav  {
   list-style-type: none;
-  display: flex;
+
 }
+
 nav a {
   padding:1em;
   min-width: 120px;
