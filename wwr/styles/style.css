@@ -86,11 +86,22 @@ h4 {
 
 #background {
     background-color:#004643;
-    height: 725px;
+    height: 600px;
     margin-top: 700px;
     margin-bottom: 50px;
-  
-} 
+    position: relative;
+
+}
+
+.mountains {
+    position: absolute;
+    top: 1825px;
+    left: 200px;
+    height: 500px;
+
+}
+
+
 .background1 {
     background-color:#BDFAF1;
     height: 100px;
@@ -251,12 +262,15 @@ main.home-grid {
 } 
 
 .msg {
-    background-color:#004643;
+    position: absolute;
+    background-color:white;
     color: #BDFAF1;
     line-height: 1.5em;
     padding: 35px;
-    box-shadow: 5px 5px 10px #004643;
+    box-shadow: 5px 5px 10px;
     z-index:1;
+    top: 1900px;
+    left: 700px;  
  }
  
  .msg a {
@@ -283,18 +297,15 @@ main.home-grid {
  
  .msg p {   
     font-family: Roboto, Helvetica, sans-serif;
-    color:#BDFAF1;
+    background-color:#BDFAF1;
+    color:#004643;
     padding-bottom: 15px;
     align-content: center;
     align-items: center;
     width: 100%;
  }
 
-.mountains {
 
-    width: 50%;
-    box-shadow: 5px 5px 10px #004643;
-}
 
 
 
