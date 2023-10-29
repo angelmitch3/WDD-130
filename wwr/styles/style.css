@@ -82,7 +82,7 @@ h4 {
 } 
 
 #background {
-    background-color:#004643;
+    background-color:#63CCCA;
     height: 600px;
     margin-top: 700px;
     margin-bottom: 20px;
@@ -200,6 +200,7 @@ nav a:hover {
 #hero-msg h1 {   
    text-align:center ;
    color:#BDFAF1;
+   font-size: 100;
 } 
 
 #hero-msg h4 {   
