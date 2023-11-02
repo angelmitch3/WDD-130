@@ -93,7 +93,7 @@ h4 {
 
 .mountains {
     position: absolute;
-    top: 1825px;
+    top: 1760px;
     left: 200px;
     height: 500px;
 
@@ -260,7 +260,7 @@ main.home-grid {
     position: absolute;
     line-height: 1.5em;
     padding: 35px;
-    top: 1900px;
+    top: 1800px;
     left: 800px;  
     background-color: #BDFAF1;
     max-width: 50%;
