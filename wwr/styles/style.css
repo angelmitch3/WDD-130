@@ -88,20 +88,28 @@ h4 {
     margin-bottom: 20px;
     position: relative;
     max-width: 100%;
+    display: block;
+    z-index: -1;
 
 }
 
 .mountains {
     position: absolute;
-    top: 1760px;
-    left: 200px;
-    height: 500px;
+    top: 1725px;
+    left: 100px;
+    max-height: auto;
+    max-width: auto;
+    margin: 50px;
+    box-shadow: 5px 5px 10px whitesmoke;
+    z-index: 1;
 
 }
 
 
 .background1 {
     background-color:#BDFAF1;
+    display: block;
+    
 } 
 
 #content {
@@ -260,10 +268,15 @@ main.home-grid {
     position: absolute;
     line-height: 1.5em;
     padding: 35px;
-    top: 1800px;
-    left: 800px;  
-    background-color: #BDFAF1;
+    top: 1775px;
+    left: 750px;  
+    background-color: #004643;
     max-width: 50%;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #BDFAF1;
+    margin: 50px;
+    box-shadow: 5px 5px 10px whitesmoke;
+    z-index: 1;
  }
  
  .msg a {
@@ -313,19 +326,6 @@ main.home-grid {
     
 }
 
-
 main section img {
     box-sizing: border-box;
-}
-
-.msg {
-    background-color: #004643;
-    padding: 35px;
-    box-shadow: 5px 5px 10px #004643;
-}
-
-.mountains, .msg {
-    display: block;
-    margin: 0 auto;
-    box-shadow: 5px 5px 10px whitesmoke;
 }
