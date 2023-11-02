@@ -97,8 +97,8 @@ h4 {
     position: absolute;
     top: 1735px;
     left: 100px;
-    max-height: auto;
-    max-width: auto;
+    height: auto;
+    width: auto;
     margin: 50px;
     box-shadow: 5px 5px 10px whitesmoke;
     z-index: 1;
