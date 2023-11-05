@@ -1,9 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Roboto:wght@300&display=swap');
+
 body {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
+    background-color: #E7FFFB; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Helvetica, sans-serif;
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Caveat";
+  color: #004643;
+}
+footer {
+    background-color: #004643;
+    color: #BDFAF1;
+    max-width: 1600px;
+    padding: 25px 50px;
+    margin-top: 100px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    text-align: center;
+    color:#BDFAF1;
+    background-color: #004643;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, sans-serif;
+    max-width: 100%;
+}
+
+footer a:hover  {
+    color: #BDFAF1;
+}
+
+footer p {
+    font-size: 1.2em;  
+    font-family: Roboto, Helvetica, sans-serif;
+}    
+
+footer p a:hover {
+    text-decoration: underline;
+} 
+header {
+    background-color:#004643;
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+h4 {  
+    color:#004643;
+} 
+
+
+
+.home-title {  
+    color: #004643;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.logo {
+width: 80px;
+}
+
+#logo_link {
+   text-align:left ;
+   padding-top: 5px;
+   padding-top: 5px;
+   justify-self: center;
+   align-self: center;
+}
+
+main {
+   text-align:center ;
+}
+
 
 nav {
     display: flex;
@@ -29,66 +105,55 @@ nav a:hover {
 } 
 
 
-.logo {
-    width: 80px;
-    }
-    
-#logo_link {
-       text-align:left ;
-       padding-top: 5px;
-       padding-top: 5px;
-       justify-self: center;
-       align-self: center;
-    }
+#Rivers{
 
-#salmon {
-  padding: 20px;
-  max-width: 1600px;
-  max-height: 1200px;
-  background-color: #fff;
-  color: #333;
-  position: relative;
-    }    
+ align-items: auto;
+ max-width: 1600px;
+ max-height: 100%;
+ position: relative;
+}
 
-.salmon-img {
-    position: absolute;
-    max-width: 100%;
-    left: 200px;
-    top: 400px; 
+ .salmon-img {   
+  position: absolute;
+  top: 400px;
+  left: 200px;
 
 }
 
+#background {
+   height: 900px;
+}
 
-footer {
-    background-color: #004643;
-    color: #BDFAF1;
-    max-width: 100%;
-    padding: 25px 50px;
-    margin-top: 100px; 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.salmon-img {
+    border: 10px solid #004643;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364; 
+}
+
+.salmon-img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#background1 {
+    height: 900px;
  }
+ 
+ .desolation-img {
 
- footer a {
-    text-align: center;
-    color:#BDFAF1;
-    background-color: #004643;
-    text-decoration: none;
-    font-family: Roboto, Helvetica, sans-serif;
-    
+    position: absolute;
+    top: 1600px;
+    left: 200px;
+     border: 10px solid #004643;
+     transition: transform .5s;
+     box-shadow: 5px 5px 10px #6f7364; 
  }
-
- footer a:hover  {
-    color: #BDFAF1;
+ 
+ .desolation-img:hover {
+     opacity: 1;
+     transform: scale(1.1);
  }
+ 
 
- footer p {
-    font-size: 1.2em;  
-    font-family: Roboto, Helvetica, sans-serif;
- }    
 
- footer p a:hover {
-    text-decoration: underline;
- } 
 
