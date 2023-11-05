@@ -104,6 +104,14 @@ nav a:hover {
    text-decoration:none;
 } 
 
+#River-header {
+ background-color:#63CCCA;; 
+ max-width: 1600px;
+ text-align: center;
+}
+ .Headrivers H1 {
+    text-decoration-color: #BDFAF1;
+ }
 
 #Rivers{
 
@@ -154,6 +162,22 @@ nav a:hover {
      transform: scale(1.1);
  }
  
+ #background2 {
+    height: 900px;
+ }
 
+ .grandcanyon-img {
 
+    position: absolute;
+    top: 2800px;
+    left: 200px;
+     border: 10px solid #004643;
+     transition: transform .5s;
+     box-shadow: 5px 5px 10px #6f7364; 
+ }
+
+ .grandcanyon-img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+ }
 
