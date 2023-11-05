@@ -1,0 +1,94 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+
+}
+
+
+nav a {
+   font-family: Roboto, Helvetica, sans-serif; 
+   text-align:center;
+   color:#BDFAF1;
+   text-decoration:none;
+   padding: 35px;
+
+}
+  
+nav a:hover {
+   background-color:#BDFAF1;
+   color:#004643;
+   text-decoration:none;
+} 
+
+
+.logo {
+    width: 80px;
+    }
+    
+#logo_link {
+       text-align:left ;
+       padding-top: 5px;
+       padding-top: 5px;
+       justify-self: center;
+       align-self: center;
+    }
+
+#salmon {
+  padding: 20px;
+  max-width: 1600px;
+  max-height: 1200px;
+  background-color: #fff;
+  color: #333;
+  position: relative;
+    }    
+
+.salmon-img {
+    position: absolute;
+    max-width: 100%;
+    left: 200px;
+    top: 400px; 
+
+}
+
+
+footer {
+    background-color: #004643;
+    color: #BDFAF1;
+    max-width: 100%;
+    padding: 25px 50px;
+    margin-top: 100px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ footer a {
+    text-align: center;
+    color:#BDFAF1;
+    background-color: #004643;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, sans-serif;
+    
+ }
+
+ footer a:hover  {
+    color: #BDFAF1;
+ }
+
+ footer p {
+    font-size: 1.2em;  
+    font-family: Roboto, Helvetica, sans-serif;
+ }    
+
+ footer p a:hover {
+    text-decoration: underline;
+ } 
+
