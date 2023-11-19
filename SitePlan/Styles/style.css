@@ -359,3 +359,24 @@ main section img {
  }
 
 
+ .contactme {
+    text-align: center;
+    color: #004643;
+    background-color: rgb(208, 208, 208);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: Roboto, Helvetica, sans-serif;
+    
+}
+
+.button-box:hover {
+    background-color: #004643;
+    color:#BDFAF1;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+.button-box { 
+    text-align: center;
+}
