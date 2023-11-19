@@ -35,14 +35,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .button-box { 
     text-align: center;
+    max-width: 1500px;
 }
 
 footer {
     background-color: #004643;
     color: #BDFAF1;
-    max-width: 1600px;
+    max-width: 1500px;
     padding: 25px 50px;
-    margin-top: 300px; 
+    margin-top: 600px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -246,7 +247,6 @@ form {
    background-color: #63CCCA; 
    max-width: 1600px;
    z-index: -1;
-   margin-bottom: 100px;
    align-items: center;
 }
 
@@ -341,9 +341,10 @@ main section img {
 
 #Certification-header {
         background-color:#004643; 
-        max-width: 1600px;
+        max-width: 1570px;
         text-align: center;
         padding: 15px;
+        
 }
 
 .Certification H1 {
@@ -364,19 +365,26 @@ main section img {
     color: #004643;
     background-color: rgb(208, 208, 208);
     text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
+    font-size: 25px;
+    padding: 30px 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 5px;
     font-family: Roboto, Helvetica, sans-serif;
+    max-width: 1600px;
     
 }
 
 .button-box:hover {
-    background-color: #004643;
-    color:#BDFAF1;
+    background-color: none;
+    font-size: 25px;
     box-shadow: 5px 5px 5px whitesmoke;
 }
 .button-box { 
     text-align: center;
+    max-width: 1600px;
+    font-size: 25px;
+    
+
+    
 }
