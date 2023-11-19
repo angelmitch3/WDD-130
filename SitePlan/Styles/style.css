@@ -10,7 +10,7 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Caveat";
+  font-family: "Roboto";
   color: #004643;
 }
 
@@ -296,59 +296,47 @@ main.home-grid {
     position: relative;
     width: 1600px;
     height: 100%;
-    
     margin-bottom: 200px;
-
 }
 
- .itilv3-card {
-  width: 100px; 
-  height: 100px;    
-  align-items: center;
-  position: absolute;
-  top: 100px;
-  left:210px; 
-  display: flex;
-  flex-direction: column;
-  font-family: Roboto, Helvetica, sans-serif;
-  border-radius: 5px;
-  padding: 15px 30px;
-}
-
- .itilv4-card {
+.itilv3-card, .itilv4-card, .mcts-card {
     width: 100px; 
     height: 100px;    
     align-items: center;
     position: absolute;
     top: 100px;
-    left: 710px; 
     display: flex;
     flex-direction: column;
     font-family: Roboto, Helvetica, sans-serif;
-    border-radius: 5px;
+    border-radius: 0; /* Remove edges */
     padding: 15px 30px;
+}
 
+.itilv3-card {
+    left:210px; 
+}
+
+.itilv4-card {
+    left: 710px; 
 }
 
 .mcts-card {
-    width: 100px; 
-    height: 100px;    
-    align-items: center;
-    position: absolute;
-    top: 100px;
     left: 1210px; 
-    display: flex;
-    flex-direction: column;
     z-index: 1;
-    font-family: Roboto, Helvetica, sans-serif;
-    border-radius: 5px;
-    padding: 15px 30px;
-
 }
 
 main section img {
-        box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0; /* Remove edges */
+
+}
+
+.certification-img {
+        border: 10px solid #004643;
+        transition: transform .5s;
+        box-shadow: 5px 5px 10px #6f7364; 
     }
+
     
 
 #Certification-header {
@@ -364,4 +352,10 @@ main section img {
     z-index: 1;
 
  }
+
+ .certification-img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+ }
+
 
