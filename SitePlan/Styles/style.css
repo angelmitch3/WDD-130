@@ -45,7 +45,7 @@ footer {
     color: #BDFAF1;
     max-width: 100%;
     padding: 25px 50px;
-    margin-top: 600px; 
+    margin-top: 100px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -297,18 +297,20 @@ main.home-grid {
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
-}
+    height: auto;
+}  
 
 .home-grid a {
     text-decoration: none;
 }
 
 .itilv3-card, .itilv4-card, .mcts-card {
-    width: 100px; 
-    height: 100px;    
+    width: 500px; 
+    height: 500px;    
     align-items: center;
     text-decoration: none;
     top: 100px;
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     font-family: Roboto, Helvetica, sans-serif;
@@ -336,8 +338,6 @@ main section img {
     border-radius: 0; /* Remove edges */
     max-width: 100%;
     text-decoration: none;
-
-
 }
 
 .certification-img {
