@@ -3,15 +3,17 @@
 body {
     background-color: #E7FFFB; 
     font-size: 22px;
-    margin: 0;
-    padding: 0;
     font-family: Roboto, Helvetica, sans-serif;
+    max-width: 100%;
+    text-align: center;
+    
 }
 
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto";
   color: #004643;
+  text-decoration: none;
 }
 
 .book {
@@ -41,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 footer {
     background-color: #004643;
     color: #BDFAF1;
-    max-width: 1500px;
+    max-width: 100%;
     padding: 25px 50px;
     margin-top: 600px; 
     display: flex;
@@ -76,7 +78,7 @@ header {
     justify-content: space-between;
     padding: 10px;
     background-color:#004643;
-    max-width: 1580px;
+    max-width: 100%;
 }
 
 nav {
@@ -129,12 +131,9 @@ width: 80px;
 
 main {
    text-align:center ;
+   text-decoration: none;
+
 }
-
-
-
-
-
 
 .social img {
     padding-top: 15px;
@@ -246,18 +245,18 @@ form {
 #content {
 
    background-color: #63CCCA; 
-   max-width: 1600px;
+   max-width: 100%;
    z-index: -1;
    align-items: center;
 }
 
 #hero {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr;
     margin-top: 0; 
     align-items: center; /* This will center the items vertically */
     justify-items: center; /* This will center the items horizontally */
-    max-width: 1600px;
+    max-width: 100%;
 }
 
 
@@ -290,17 +289,19 @@ form {
 
 main.home-grid {
     font-family: Roboto, Helvetica, sans-serif;
-    position: relative;
-    width: 1600px;
+    max-width: 100%;
     height: 100%;
-    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
 }
 
 .itilv3-card, .itilv4-card, .mcts-card {
     width: 100px; 
     height: 100px;    
     align-items: center;
-    position: absolute;
+    text-decoration: none;
     top: 100px;
     display: flex;
     flex-direction: column;
@@ -310,21 +311,26 @@ main.home-grid {
 }
 
 .itilv3-card {
-    left:210px; 
+    text-align: center;
+    text-decoration: none;
 }
 
 .itilv4-card {
-    left: 710px; 
+    text-align: center;
+    text-decoration: none;
 }
 
 .mcts-card {
-    left: 1210px; 
-    z-index: 1;
+    text-align: center;
+    text-decoration: none;
 }
 
 main section img {
     box-sizing: border-box;
     border-radius: 0; /* Remove edges */
+    max-width: 100%;
+    text-decoration: none;
+
 
 }
 
@@ -338,7 +344,7 @@ main section img {
 
 #Certification-header {
         background-color:#004643; 
-        max-width: 1570px;
+        max-width: 100%;
         text-align: center;
         padding: 15px;
         
@@ -348,12 +354,14 @@ main section img {
     text-decoration-color: #BDFAF1;
     color: #BDFAF1;
     z-index: 1;
+    text-decoration: none;
 
  }
 
  .certification-img:hover {
     opacity: 1;
     transform: scale(1.1);
+    text-decoration: none;
  }
 
 
