@@ -82,6 +82,7 @@ header {
 nav {
     display: flex;
     gap: 20px;
+    max-width: 100%;
 }
 
 nav a {
@@ -274,22 +275,18 @@ form {
 
 }
 
-   
-#hero-img {
-   max-width : 1600px;
-   
-}
   
 #hero-msg h1 {   
-   text-align:center ;
-   color:#BDFAF1;
-   font-size: 60px;
-} 
+    text-align:center ;
+    color:#BDFAF1;
+    font-size: 60px;
+ } 
+ 
+ #hero-msg h4 {   
+    text-align:center ;
+    color: white;
 
-#hero-msg h4 {   
-   text-align:center ;
-   color: white;
-}
+ }
 
 main.home-grid {
     font-family: Roboto, Helvetica, sans-serif;
@@ -365,22 +362,24 @@ main section img {
     color: #004643;
     background-color: rgb(208, 208, 208);
     text-decoration: none;
-    font-size: 25px;
+    font-size: 50px;
     padding: 30px 45px;
     margin-top: 10px;
-    margin-bottom: 10px;
     border-radius: 5px;
     font-family: Roboto, Helvetica, sans-serif;
     max-width: 1600px;
+    border-radius: 20px;
     
-}
+ }    
 
-.button-box:hover {
-    background-color: none;
-    font-size: 25px;
+.contactme:hover {
+    background-color: #004643;
+    color:#BDFAF1;
     box-shadow: 5px 5px 5px whitesmoke;
 }
+
 .button-box { 
+    margin-top: 70px;
     text-align: center;
     max-width: 1600px;
     font-size: 25px;
