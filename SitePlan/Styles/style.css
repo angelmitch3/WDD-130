@@ -248,6 +248,9 @@ form {
    max-width: 100%;
    z-index: -1;
    align-items: center;
+   text-decoration: none;
+   
+
 }
 
 #hero {
@@ -290,10 +293,13 @@ form {
 main.home-grid {
     font-family: Roboto, Helvetica, sans-serif;
     max-width: 100%;
-    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-decoration: none;
+}
+
+.home-grid a {
     text-decoration: none;
 }
 
@@ -335,7 +341,9 @@ main section img {
 }
 
 .certification-img {
-        border: 10px solid #004643;
+        margin-top: 200px;
+        margin-bottom: 0;
+        border: 5px solid #004643;
         transition: transform .5s;
         box-shadow: 5px 5px 10px #6f7364; 
     }
@@ -389,7 +397,7 @@ main section img {
 .button-box { 
     margin-top: 70px;
     text-align: center;
-    max-width: 1600px;
+    max-width: 100%;
     font-size: 25px;
     
 
