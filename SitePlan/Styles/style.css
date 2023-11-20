@@ -319,7 +319,7 @@ form {
     flex-direction: column;
     font-family: Roboto, Helvetica, sans-serif;
     border-radius: 0; /* Remove edges */
-    padding: 15px 30px;
+    padding: 10px 10px;
 }
 
 .itilv3-card {
@@ -342,6 +342,7 @@ main section img {
     border-radius: 0; /* Remove edges */
     max-width: 100%;
     text-decoration: none;
+    
 }
 
 .certification-img {
@@ -403,8 +404,41 @@ main section img {
     margin-top: 70px;
     text-align: center;
     max-width: 100%;
-    font-size: 25px;
-    
+    font-size: 25px;   
+}
 
-    
+.content_myportpolio1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.content_myportpolio1:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.content_myportpolio1 img {
+    width: 900px;
+    height: 514px;
+}
+.content_myportpolio1 .info {
+    width: calc(100% - 220px);
+    padding: 10px;
+}
+
+
+.content_myportpolio2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.content_myportpolio2:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.content_myportpolio2 img {
+    width: 900px;
+    height: 514px;
+}
+.content_myportpolio2 .info {
+    width: calc(100% - 220px);
+    padding: 10px;
 }
