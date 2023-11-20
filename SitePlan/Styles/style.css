@@ -244,7 +244,7 @@ form {
 
 #content {
 
-   background-color: #63CCCA; 
+   background: linear-gradient(#004643, #63CCCA, #BDFAF1);
    max-width: 100%;
    z-index: -1;
    align-items: center;
@@ -297,6 +297,7 @@ main.home-grid {
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
+    padding: 25px 50px;
 }  
 
 .home-grid a {
