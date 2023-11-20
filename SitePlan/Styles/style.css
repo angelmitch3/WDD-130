@@ -410,6 +410,13 @@ main section img {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    margin-top: 100px;
+    background: linear-gradient(#004643, #63CCCA);
+    height: max-content;
+}
+.content_myportpolio1 p {
+    color: #BDFAF1;
+    
 }
 .content_myportpolio1:nth-child(even) {
     flex-direction: row-reverse;
@@ -427,7 +434,12 @@ main section img {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 100px;
+    background: linear-gradient(#004643, #63CCCA);
+}
+
+.content_myportpolio2 p {
+    color: #BDFAF1;
 }
 .content_myportpolio2:nth-child(even) {
     flex-direction: row-reverse;
@@ -435,8 +447,24 @@ main section img {
 .content_myportpolio2 .info {
     width: calc(100% - 990px);
     padding: 10px;
+
+}
+
+.content_myportpolio2 h2, .content_myportpolio1 h2 {
+      
+    color: #BDFAF1;
+
 }
 .content_myportpolio2 iframe {
     width: 900px;
     height: 600px;
+}
+
+#MyPortpolio-header {
+    background-color:#63CCCA; 
+    max-width: 100%;
+    text-align:center;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 100px;
 }
