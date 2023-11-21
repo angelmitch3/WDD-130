@@ -414,7 +414,7 @@ main section img {
     background: linear-gradient(#004643, #63CCCA);
     height: max-content;
 }
-.content_myfortpolio1 p {
+.content_myfortfolio1 p {
     color: #BDFAF1;
     
 }
@@ -450,12 +450,12 @@ main section img {
 
 }
 
-.content_myportfolio2 h2, .content_myfortpolio1 h2 {
+.content_myportfolio2 h2, .content_myfortfolio1 h2 {
       
     color: #BDFAF1;
 
 }
-.content_myfortpolio2 iframe {
+.content_myfortfolio2 iframe {
     width: 900px;
     height: 600px;
 }
