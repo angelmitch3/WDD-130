@@ -426,7 +426,7 @@ main section img {
     padding: 10px;
 }
 .content_myportfolio1 iframe {
-    width: 1000px;
+    width: 900px;
     height: 600px;
 }
 
@@ -468,6 +468,10 @@ main section img {
     padding: 10px;
     margin-bottom: 0;
     margin-top: 100px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    color:#BDFAF1;
     
 }
 
@@ -475,38 +479,35 @@ main section img {
 
     margin-bottom: 0;
     margin-top: 0;
+    z-index: -1;  
 
 }
 
 .contactme1 {
-    position: fixed; /* Change from absolute to fixed */
-    bottom: 180px; 
-    left: 900px;
+    position: relative;
     text-align: center;
     color: #004643;
     background-color: rgb(208, 208, 208);
     text-decoration: none;
     font-size: 30px;
-    padding: 20px 60px;
-    margin-top: 10px;
+    padding: 10px 100px;
+    margin-top: 25px;
     border-radius: 5px;
     font-family: Roboto, Helvetica, sans-serif;
-    max-width: 1600px;
-    border-radius: 20px;
 }
 
 .contactme1:hover {
     background-color: #004643;
     color:#BDFAF1;
-    box-shadow: 5px 5px 5px whitesmoke;
+    box-shadow: 5px 5px 5px whitesmoke
 }
 
 .button-box1 { 
-    margin-top: 70px;
+    margin-top: 5px;
     text-align: center;
     max-width: 100%;
-    font-size: 25px;  
-    position: fixed; /* Change from absolute to fixed */
-    bottom: 180px; 
-    left: 900px; 
+    font-size: 25px;
+     
 }
+
+
