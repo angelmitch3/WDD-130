@@ -505,5 +505,8 @@ main section img {
     margin-top: 70px;
     text-align: center;
     max-width: 100%;
-    font-size: 25px;   
+    font-size: 25px;  
+    position: fixed; /* Change from absolute to fixed */
+    bottom: 180px; 
+    left: 900px; 
 }
