@@ -406,7 +406,7 @@ main section img {
     max-width: 100%;
     font-size: 25px;   
 }
-.content_myportpolio1 {
+.content_myportfolio1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -414,23 +414,23 @@ main section img {
     background: linear-gradient(#004643, #63CCCA);
     height: max-content;
 }
-.content_myportpolio1 p {
+.content_myfortpolio1 p {
     color: #BDFAF1;
     
 }
-.content_myportpolio1:nth-child(even) {
+.content_myportfolio1:nth-child(even) {
     flex-direction: row-reverse;
 }
-.content_myportpolio1 .info {
+.content_myportfolio1 .info {
     width: calc(100% - 990px);
     padding: 10px;
 }
-.content_myportpolio1 iframe {
+.content_myportfolio1 iframe {
     width: 900px;
     height: 600px;
 }
 
-.content_myportpolio2 {
+.content_myportfolio2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -438,29 +438,29 @@ main section img {
     background: linear-gradient(#004643, #63CCCA);
 }
 
-.content_myportpolio2 p {
+.content_myportfolio2 p {
     color: #BDFAF1;
 }
-.content_myportpolio2:nth-child(even) {
+.content_myportfolio2:nth-child(even) {
     flex-direction: row-reverse;
 }
-.content_myportpolio2 .info {
+.content_myportfolio2 .info {
     width: calc(100% - 990px);
     padding: 10px;
 
 }
 
-.content_myportpolio2 h2, .content_myportpolio1 h2 {
+.content_myportfolio2 h2, .content_myfortpolio1 h2 {
       
     color: #BDFAF1;
 
 }
-.content_myportpolio2 iframe {
+.content_myfortpolio2 iframe {
     width: 900px;
     height: 600px;
 }
 
-#MyPortpolio-header {
+#MyPortfolio-header {
     background-color:#63CCCA; 
     max-width: 100%;
     text-align:center;
@@ -470,7 +470,7 @@ main section img {
     
 }
 
-.myportpolio-video {
+.myportfolio-video {
 
     margin-bottom: 0;
     margin-top: 0;
