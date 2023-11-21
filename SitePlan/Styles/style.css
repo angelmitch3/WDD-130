@@ -479,7 +479,9 @@ main section img {
 }
 
 .contactme1 {
-    position: absolute; bottom: 180px; left: 900px;
+    position: fixed; /* Change from absolute to fixed */
+    bottom: 180px; 
+    left: 900px;
     text-align: center;
     color: #004643;
     background-color: rgb(208, 208, 208);
