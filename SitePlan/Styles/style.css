@@ -257,10 +257,6 @@ form {
     grid-column: 2/3;
     grid-row: 1/2;
 
-   
-  
-   
-
 }
 
 #hero {
@@ -284,6 +280,8 @@ form {
 #hero-video {
     width: 1600px;
     align-content: center;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -311,6 +309,9 @@ form {
    
 }  
 
+.home-grid a h2 {
+ text-decoration: none;
+}   
 
 .justify-paragraph {
     position: relative;
@@ -319,7 +320,7 @@ form {
 
 .itilv3-card, .itilv4-card, .mcts-card {
     width: 400px; /* Reduced width */
-    height: 500px;    
+    height: 640px;    
     align-items: center;
     text-decoration: none;
     margin-bottom: 0;
@@ -346,6 +347,10 @@ form {
     text-align: center;
     text-decoration: none;
 }
+.home-grid h2 {
+    border-bottom: none;
+}
+
 
 main section img {
     box-sizing: border-box;
@@ -370,7 +375,7 @@ main section img {
         max-width: 100%;
         text-align:center;
         padding: 10px;
-        margin-top: 10px;
+        margin-top: 0;
         margin-bottom: 0;
         
 }
