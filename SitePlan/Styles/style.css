@@ -249,6 +249,16 @@ form {
    z-index: -1;
    align-items: center;
    text-decoration: none;
+   height: 1075px;
+    max-width: 100%;
+    text-align:center;
+    margin-bottom: 0;
+    margin-top: 0;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+   
+  
    
 
 }
@@ -289,23 +299,22 @@ form {
     color: white;
 
  }
- main.home-grid {
+.home-grid {
     font-family: Roboto, Helvetica, sans-serif;
     max-width: 100%;
+    margin-top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
-    padding: 15px 10px; /* Reduced padding */
+    height: 420px;
+   
 }  
 
 
 .justify-paragraph {
+    position: relative;
     text-align: justify;
-}
-.home-grid a {
-    text-decoration: none;
-
 }
 
 .itilv3-card, .itilv4-card, .mcts-card {
@@ -313,13 +322,14 @@ form {
     height: 500px;    
     align-items: center;
     text-decoration: none;
-    top: 100px;
     margin-bottom: 0;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     font-family: Roboto, Helvetica, sans-serif;
     border-radius: 0; /* Remove edges */
     padding: 10px 10px;
+
 }
 
 .itilv3-card {
@@ -360,9 +370,11 @@ main section img {
         max-width: 100%;
         text-align:center;
         padding: 10px;
+        margin-top: 10px;
         margin-bottom: 0;
         
 }
+
 
 .Certification H1 {
     text-decoration-color: #BDFAF1;
@@ -380,17 +392,16 @@ main section img {
 
 
  .contactme {
+    position: relative;
     text-align: center;
     color: #004643;
     background-color: rgb(208, 208, 208);
     text-decoration: none;
-    font-size: 50px;
-    padding: 30px 45px;
-    margin-top: 10px;
-    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px 100px;
+    border-radius: 10px;
     font-family: Roboto, Helvetica, sans-serif;
-    max-width: 1600px;
-    border-radius: 20px;
+    margin-top: 5px;
     
  }    
 
@@ -424,10 +435,13 @@ main section img {
 .content_myportfolio1 .info {
     width: calc(100% - 990px);
     padding: 10px;
+    height: auto;
 }
 .content_myportfolio1 iframe {
     width: 900px;
     height: 600px;
+    padding: 30px;
+    
 }
 
 .content_myportfolio2 {
@@ -459,6 +473,7 @@ main section img {
 .content_myportfolio2 iframe {
     width: 900px;
     height: 600px;
+    padding: 30px;
 }
 
 #MyPortfolio-header {
@@ -472,6 +487,7 @@ main section img {
     grid-row: 1/2;
     margin-top: 100px;
     color:#BDFAF1;
+    z-index: -1;
     
 }
 
@@ -489,8 +505,8 @@ main section img {
     color: #004643;
     background-color: rgb(208, 208, 208);
     text-decoration: none;
-    font-size: 30px;
-    padding: 10px 100px;
+    font-size: 20px;
+    padding: 5px 100px;
     border-radius: 10px;
     font-family: Roboto, Helvetica, sans-serif;
 }
@@ -528,8 +544,10 @@ main section img {
 }
 
 .button-box {
+     margin-top: 5px;
     text-align: center;
-    padding: 20px;
+    max-width: 100%;
+    font-size: 25px;
 }
 
 .download-button {
@@ -544,4 +562,10 @@ main section img {
 .download-button:hover {
     background-color: #BDFAF1;
     color: #004643;
+}
+
+.back-button a {
+text-decoration: none;
+box-shadow: 5px 5px 5px whitesmoke
+
 }
