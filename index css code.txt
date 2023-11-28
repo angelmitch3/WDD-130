@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Roboto:wght@300&display=swap');
 
 body {
+    background-color: #E7FFFB; 
     font-size: 22px;
     font-family: Roboto, Helvetica, sans-serif;
     max-width: 100%;
     text-align: center;
-    margin: 0 auto; /* Add this line */
-    padding: 0 10%; /* Add this line */
-    box-sizing: border-box; /* Add this line */
     
 }
 
@@ -39,16 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .button-box { 
     text-align: center;
-    max-width: 100%; /* Change this from 1500px to 100% */
-    margin: 0 auto; /* Add this line */
-    padding: 0 10%; /* Add this line */
-    box-sizing: border-box; /* Add this line */
-}
-
-.testimony {
-
-   text-align: center; 
-  
+    max-width: 1500px;
 }
 
 footer {
@@ -56,7 +45,7 @@ footer {
     color: #BDFAF1;
     max-width: 100%;
     padding: 25px 50px;
-    margin-top: 0; 
+    margin-top: 50px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -109,15 +98,22 @@ nav a:hover {
     color:#004643;
     text-decoration:none;
  } 
- #background {
+ 
+
+h4 {  
+    color: #004643;
+} 
+
+#background {
     background-color:#63CCCA;
     height: 600px;
-    margin-top: 100px;
+    margin-top: 700px;
     margin-bottom: 20px;
     position: relative;
     max-width: 100%;
     display: block;
     z-index: 0;
+
 }
 
 
@@ -134,31 +130,14 @@ width: 80px;
 }
 
 main {
-    text-align:center ;
-    text-decoration: none;
-    max-width: 100%; /* Add this line */
-    margin: 0 auto; /* Add this line */
-    padding: 0 10%; /* Add this line */
-    box-sizing: border-box; /* Add this line */
-    background-color:#BDFAF1;
-    
+   text-align:center ;
+   text-decoration: none;
 
 }
 
 .social img {
     padding-top: 15px;
     
-}
-
-h4 {  
-    color: #004643;
-} 
-
-#background {
-    background-color:#63CCCA;
-    height: 600px;
-    margin-top: 700px;
- 
 }
 
 /* CSS code for Forms */
@@ -267,7 +246,7 @@ form {
 
    background: linear-gradient(#004643, #63CCCA, #BDFAF1);
    max-width: 100%;
-   z-index: 1;
+   z-index: -1;
    align-items: center;
    text-decoration: none;
    height: 1075px;
@@ -287,12 +266,10 @@ form {
     align-items: center; /* This will center the items vertically */
     justify-items: center; /* This will center the items horizontally */
     max-width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
+
+
+
 #hero-box {
     align-self: center;
     align-content: center;
@@ -304,7 +281,8 @@ form {
     width: 1600px;
     align-content: center;
     margin-bottom: 10px;
-    margin-top: 0;
+    margin-bottom: 10px;
+
 }
 
   
@@ -336,12 +314,8 @@ form {
 }   
 
 .justify-paragraph {
-    margin-top: 0;
     position: relative;
-    text-align: center;
-    background-color:#BDFAF1;
-    margin-bottom: 0;
-    padding-bottom: 10px;
+    text-align: justify;
 }
 
 .itilv3-card, .itilv4-card, .mcts-card {
@@ -526,8 +500,8 @@ main section img {
 
     margin-bottom: 10px;
     margin-top: 10px;
-    z-index: 1;  
- 
+    z-index: -1;  
+
 }
 
 .contactme1 {
