@@ -487,6 +487,7 @@ main section img {
     margin-top: 0;
     background: linear-gradient(#004643, #63CCCA);
     height: max-content;
+    padding: 20px;
 }
 .content_myportfolio1 p {
     color: #BDFAF1;
@@ -562,6 +563,7 @@ main section img {
     margin-bottom: 10px;
     margin-top: 10px;
     z-index: 1;  
+    width: 100%;
  
 }
 
