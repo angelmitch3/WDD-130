@@ -193,8 +193,7 @@ form {
     color:#004643
   }
   
-  input,
-  textarea {
+  input, textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
     font: 1em sans-serif;
@@ -403,6 +402,7 @@ main section img {
         border: 5px solid #004643;
         transition: transform .5s;
         box-shadow: 5px 5px 10px #6f7364; 
+        text-decoration: none;
     }
 
     
@@ -423,6 +423,7 @@ main section img {
     color: #BDFAF1;
     z-index: 1;
     text-decoration: none;
+  
 
  }
 
