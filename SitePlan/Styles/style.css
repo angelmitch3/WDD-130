@@ -46,8 +46,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .testimony {
-
-   text-align: center; 
+   margin-top: 220px;
+   text-align: center;
   
 }
 
@@ -60,6 +60,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-shrink: 0;
 }
 
 footer a {
@@ -267,14 +268,15 @@ form {
 
    background: linear-gradient(#004643, #63CCCA, #BDFAF1);
    max-width: 100%;
-   z-index: 1;
+   z-index: -1;
    align-items: center;
    text-decoration: none;
-    height: 1075px;
+    height: 1200px;
     max-width: 100%;
     text-align:center;
     margin-bottom: 0;
     margin-top: 0;
+    flex: 1 0 auto;
    
 
 }
@@ -329,7 +331,7 @@ form {
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
-    height: 420px;
+    height: 360px;
    
 }  
 
