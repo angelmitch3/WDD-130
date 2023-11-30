@@ -605,8 +605,8 @@ main section img {
 
 .download-button {
     padding: 10px 20px;
-    background-color: #004643;
-    color: #fff;
+    background-color: #BDFAF1;
+    color: #004643;
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
@@ -614,8 +614,8 @@ main section img {
 }
 
 .download-button:hover {
-    background-color: #BDFAF1;
-    color: #004643;
+    background-color:  #004643;
+    color: #BDFAF1; 
 }
 .dot {
     height: 15px;
@@ -726,9 +726,32 @@ box-shadow: 5px 5px 5px whitesmoke
     z-index: 1;
     align-items: center;
     text-decoration: none;
-    height: 1450px;
+    height: 1600px;
     max-width: 100%;
     text-align:center;
     margin-bottom: 0;
     margin-top: 0;
+    color: #BDFAF1; 
   }   
+
+  #content-resume h2 {
+
+    max-width: 100%;
+    z-index: 1;
+    align-items: center;
+    text-decoration: none;
+    max-width: 100%;
+    text-align:center;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #BDFAF1;
+  }   
+
+  .button-box2 { 
+    text-align: center;
+    max-width: 100%; /* Change this from 1500px to 100% */
+    margin: 0 auto; /* Add this line */
+    padding: 0 10%; /* Add this line */
+    box-sizing: border-box; /* Add this line */
+
+  }
