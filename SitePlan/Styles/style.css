@@ -446,7 +446,7 @@ main section img {
     background-color: rgb(208, 208, 208);
     text-decoration: none;
     font-size: 20px;
-    padding: 8px 100px;
+    padding: 10px 100px;
     border-radius: 10px;
     font-family: Roboto, Helvetica, sans-serif;
     margin-top: 5px;
@@ -577,7 +577,7 @@ main section img {
     background-color: rgb(208, 208, 208);
     text-decoration: none;
     font-size: 20px;
-    padding: 5px 100px;
+    padding: 10px 100px;
     border-radius: 10px;
     font-family: Roboto, Helvetica, sans-serif;
 }
@@ -604,7 +604,7 @@ main section img {
     margin-bottom: 30px;
 }
 
-.button-learnmore {
+.button-learn {
     padding: 10px 20px;
     background-color: #BDFAF1;
     color: #004643;
@@ -624,9 +624,9 @@ main section img {
     text-align: center;
 }
 
-.button-learnmore, .button-learnmore2:hover {
-    background-color:  #004643;
-    color: #BDFAF1; 
+.button-learn:hover,.button-learnmore2:hover {
+    background-color:#63CCCA;
+    color: #004643; 
     box-shadow: 5px 5px 5px whitesmoke;
 }
 
