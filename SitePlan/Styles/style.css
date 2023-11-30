@@ -124,12 +124,13 @@ nav a:hover {
 
 .logo {
  width: 80px;
- left: 20px;
+ left: 30px;
 }
 
 #logo_link {
    text-align: left;
    padding-top: 5px;
+   padding-left: 20px;
 
    justify-self: center;
    align-self: center;
@@ -616,6 +617,7 @@ main section img {
 .download-button:hover {
     background-color:  #004643;
     color: #BDFAF1; 
+    box-shadow: 5px 5px 5px whitesmoke;
 }
 .dot {
     height: 15px;
