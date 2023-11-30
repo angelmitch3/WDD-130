@@ -604,6 +604,32 @@ main section img {
     margin-bottom: 30px;
 }
 
+.button-learnmore {
+    padding: 10px 20px;
+    background-color: #BDFAF1;
+    color: #004643;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.button-learnmore2 {
+    padding: 10px 20px;
+    background-color: #BDFAF1;
+    color: #004643;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.button-learnmore, .button-learnmore2:hover {
+    background-color:  #004643;
+    color: #BDFAF1; 
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
 .download-button {
     padding: 10px 20px;
     background-color: #BDFAF1;
