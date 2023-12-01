@@ -668,19 +668,14 @@ box-shadow: 5px 5px 5px whitesmoke
     margin: auto;
   }
   
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
     padding: 16px;
+    margin-top: -22px;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -695,6 +690,12 @@ box-shadow: 5px 5px 5px whitesmoke
     border-radius: 3px 0 0 3px;
   }
   
+
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
@@ -743,8 +744,13 @@ box-shadow: 5px 5px 5px whitesmoke
   }
   
   @keyframes fade {
-    from {opacity: .4}
+    from {opacity: .4} 
     to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 600px) {
+    .prev, .next,.text {font-size: 11px}
   }
   
   #content-resume {
