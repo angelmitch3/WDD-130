@@ -656,11 +656,15 @@ main section img {
 }
 
 .back-button a {
-text-decoration: none;
-box-shadow: 5px 5px 5px whitesmoke
-
+    
+    text-decoration: none;
+    box-shadow: 5px 5px 5px whitesmoke
 }
 
+.back-button:hover {
+ color: #004643;
+
+}
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
@@ -788,4 +792,29 @@ box-shadow: 5px 5px 5px whitesmoke
     padding: 0 10%; /* Add this line */
     box-sizing: border-box; /* Add this line */
 
+  }
+
+  #contactus {
+    border: 1px solid #63CCCA;
+    box-shadow: 5px 5px 5px gray;
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+    background: linear-gradient(#004643, #63CCCA, #BDFAF1);
+    font-size:medium;
+    border-radius: 5%;
+  }
+  .logo {
+    width: 80px;
+    left: 80px;
+   }
+
+   #contactus a {
+    margin: 0;
+   }
+  
+   .img {
+    width: 40px;
+    left: 40px; 
+    margin: 0;  
   }

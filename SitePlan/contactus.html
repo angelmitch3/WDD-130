@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Styles/style.css">
+    <style>
+        #contactus {
+            border: 2px solid black;
+            padding: 20px;
+            width: fit-content;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
     <br><br><br><br><br>
-    <img src="images/logo.png" class="logo" alt="logo">
-    <br><br>
     <div id = "contactus">
+        <img src="images/logo.png" class="logo" alt="logo">
+        <br><br>
         <form action="/my-handling-form-page" method="post">
             <ul>
                 <li>
@@ -28,18 +36,24 @@
                 <li class="button">
                     <button type="submit">Send your message</button>
                 </li>
-                <li>
-            
             </ul>
         </form>
-   </div>
-    <div class='back-button'>
-        <a class='back' href="index.html">Back to Homepage</a> 
-    </div>    
-
-    
-      
-    </body>
+        <div class='back-button'> 
+            <br><br>
+            <a class='back' href="index.html">Back to Homepage</a> 
+        </div> 
+        <br><br> 
+        <p><b>You may also contact me on my Social Media account</p> </b> 
+        <a href="https://www.facebook.com/michael.galang.54/">
+            <img src="images/facebook_logo.png" alt="fb icon">
+        </a>
+        <a href="https://www.linkedin.com/in/michael-dimson-galang-itil%C2%AEv4-mcts-433160168/">
+            <img src="images/linkedln_logo.png" alt="twitter icon">
+        </a>
+        <a href="https://www.instagram.com/angelmitch3/">
+            <img src="images/instagram_logo.png" alt="instagram icon">
+        </a>
+    </div>
     <script>
         // Get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
