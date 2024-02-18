@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Styles/style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body>
     <br><br><br><br><br>
     <div id = "contactus">
         <img src="images/logo.png" class="logo" alt="logo">
         <br><br>
-        <form onsubmit="sendEmail(); reset(); return false">
+        <form id="myForm" onsubmit="sendEmail(); this.reset(); return false">
             <ul>
                 <li>
                     <label for="name">Name:</label>
@@ -50,11 +51,10 @@
     
 
  
-    <<script>
+    <script>
         function sendEmail(){
             Email.send({
-             
-                SecureToken: "050e0d6f-836d-4d29-b764-6d1d15d2c5db",
+                SecureToken: "77272961-1943-4c39-866a-9a7b26b57e7c",
                 To: "michael.empresahermano@gmail.com",
                 From: document.getElementById("mail").value,
                 Subject: "Recruiter inquiry",
