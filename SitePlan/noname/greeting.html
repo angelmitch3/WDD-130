@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Joke</title>
+<style>
+    #birthdayGreeting {
+        display: none;
+    }
+</style>
+</head>
+<body>
+    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+            <td align="center">
+                <table cellspacing="0" cellpadding="0" border="0" width="600" style="border-collapse: collapse;">
+                    <tr>
+                        <td align="center" bgcolor="#f7f7f7" style="padding: 40px 0;">
+                            <h1 style="font-family: Arial, sans-serif; color: #333333;">Ready for a Birthday Joke?</h1>
+                            <p style="font-family: Arial, sans-serif; color: #666666;">Why was the birthday cake as hard as a rock?</p>
+                            <button onclick="revealAnswer()" style="font-family: Arial, sans-serif; background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Click to reveal answer!</button>
+                            <div id="birthdayGreeting">
+                                <h2 style="font-family: Arial, sans-serif; color: #333333;">Because it was a marble cake!</h2>
+                                <p style="font-family: Arial, sans-serif; color: #666666;">Happy Birthday! Wishing you a fantastic day filled with joy and laughter!</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script>
+        function revealAnswer() {
+            var birthdayGreeting = document.getElementById("birthdayGreeting");
+            birthdayGreeting.style.display = "block";
+            var iframe = document.createElement('iframe');
+            iframe.width = "480";
+            iframe.height = "270";
+            iframe.src = "https://giphy.com/embed/LRZrd7Yr7jXfdLN7yD/video";
+            iframe.frameBorder = "0";
+            iframe.allow = "fullscreen";
+            birthdayGreeting.appendChild(iframe);
+        }
+    </script>
+</body>
+</html>
